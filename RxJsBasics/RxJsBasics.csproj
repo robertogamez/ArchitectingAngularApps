@@ -68,9 +68,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="rxjs-example\callback.js" />
     <Content Include="packages.config" />
     <Content Include="observer-subject\package.json" />
     <Content Include="observer-subject\tsconfig.json" />
+    <Content Include="rxjs-example\completion.js" />
+    <Content Include="rxjs-example\error.js" />
+    <Content Include="rxjs-example\from.js" />
+    <Content Include="rxjs-example\package.json" />
+    <Content Include="rxjs-example\tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -79,6 +85,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="rxjs-example\producer.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
