@@ -68,13 +68,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="rxjs-example\bind-callback.ts" />
     <Content Include="rxjs-example\callback.js" />
     <Content Include="packages.config" />
     <Content Include="observer-subject\package.json" />
     <Content Include="observer-subject\tsconfig.json" />
+    <Content Include="rxjs-example\cleanUp.js" />
     <Content Include="rxjs-example\completion.js" />
+    <Content Include="rxjs-example\do-operator.js" />
     <Content Include="rxjs-example\error.js" />
+    <Content Include="rxjs-example\filter-operator.js" />
     <Content Include="rxjs-example\from.js" />
+    <Content Include="rxjs-example\map.js" />
     <Content Include="rxjs-example\package.json" />
     <Content Include="rxjs-example\tsconfig.json" />
     <None Include="Web.Debug.config">
