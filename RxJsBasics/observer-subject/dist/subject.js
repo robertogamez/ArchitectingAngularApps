@@ -1,6 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var Subject = /** @class */ (function () {
+var Subject = (function () {
     function Subject() {
         this.observers = new Array();
     }

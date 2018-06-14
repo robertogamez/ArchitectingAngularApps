@@ -1,8 +1,7 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var subject_1 = require("./subject");
-var product_model_1 = require("./product.model");
-var product_ui_1 = require("./product-ui");
+var subject_1 = require('./subject');
+var product_model_1 = require('./product.model');
+var product_ui_1 = require('./product-ui');
 var subject = new subject_1.Subject();
 var observer = {
     update: function () { return console.log('First Observer Updated'); }

@@ -1,6 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var ProductUI = /** @class */ (function () {
+var ProductUI = (function () {
     function ProductUI(model) {
         this.model = model;
         this.model.attach(this);

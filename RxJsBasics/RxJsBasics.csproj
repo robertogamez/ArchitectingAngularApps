@@ -73,15 +73,23 @@
     <Content Include="packages.config" />
     <Content Include="observer-subject\package.json" />
     <Content Include="observer-subject\tsconfig.json" />
+    <Content Include="rxjs-example\chaining-observable.js" />
     <Content Include="rxjs-example\cleanUp.js" />
     <Content Include="rxjs-example\completion.js" />
     <Content Include="rxjs-example\do-operator.js" />
     <Content Include="rxjs-example\error.js" />
     <Content Include="rxjs-example\filter-operator.js" />
+    <Content Include="rxjs-example\flatMap-operator-page.html" />
+    <Content Include="rxjs-example\flatMap-operator.js" />
+    <Content Include="rxjs-example\flatMap-page.js" />
     <Content Include="rxjs-example\from.js" />
     <Content Include="rxjs-example\map.js" />
     <Content Include="rxjs-example\package.json" />
     <Content Include="rxjs-example\tsconfig.json" />
+    <Content Include="rxjs-example\data.json" />
+    <Content Include="rxjs-example\data1.json" />
+    <Content Include="rxjs-example\data2.json" />
+    <Content Include="rxjs-example\data3.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
