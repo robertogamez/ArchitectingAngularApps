@@ -85,6 +85,7 @@
     <Content Include="rxjs-example\from.js" />
     <Content Include="rxjs-example\map.js" />
     <Content Include="rxjs-example\package.json" />
+    <Content Include="rxjs-example\switchMap-page.js" />
     <Content Include="rxjs-example\tsconfig.json" />
     <Content Include="rxjs-example\data.json" />
     <Content Include="rxjs-example\data1.json" />
