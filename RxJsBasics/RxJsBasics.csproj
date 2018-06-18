@@ -75,16 +75,22 @@
     <Content Include="observer-subject\tsconfig.json" />
     <Content Include="rxjs-example\chaining-observable.js" />
     <Content Include="rxjs-example\cleanUp.js" />
+    <Content Include="rxjs-example\combineLatest-operator.js" />
     <Content Include="rxjs-example\completion.js" />
+    <Content Include="rxjs-example\concat-operator.js" />
     <Content Include="rxjs-example\do-operator.js" />
     <Content Include="rxjs-example\error.js" />
     <Content Include="rxjs-example\filter-operator.js" />
     <Content Include="rxjs-example\flatMap-operator-page.html" />
     <Content Include="rxjs-example\flatMap-operator.js" />
     <Content Include="rxjs-example\flatMap-page.js" />
+    <Content Include="rxjs-example\from-operator.js" />
     <Content Include="rxjs-example\from.js" />
     <Content Include="rxjs-example\map.js" />
+    <Content Include="rxjs-example\merge-operator.js" />
+    <Content Include="rxjs-example\of-operator.js" />
     <Content Include="rxjs-example\package.json" />
+    <Content Include="rxjs-example\range-operator.js" />
     <Content Include="rxjs-example\switchMap-page.js" />
     <Content Include="rxjs-example\tsconfig.json" />
     <Content Include="rxjs-example\data.json" />
@@ -100,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="rxjs-example\producer.js" />
+    <Content Include="rxjs-example\zip-operator.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
