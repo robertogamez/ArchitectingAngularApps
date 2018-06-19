@@ -87,11 +87,17 @@
     <Content Include="rxjs-example\from-operator.js" />
     <Content Include="rxjs-example\from.js" />
     <Content Include="rxjs-example\map.js" />
+    <Content Include="rxjs-example\math\max.js" />
+    <Content Include="rxjs-example\math\min.js" />
+    <Content Include="rxjs-example\math\reduce.js" />
     <Content Include="rxjs-example\merge-operator.js" />
     <Content Include="rxjs-example\of-operator.js" />
     <Content Include="rxjs-example\package.json" />
     <Content Include="rxjs-example\range-operator.js" />
     <Content Include="rxjs-example\switchMap-page.js" />
+    <Content Include="rxjs-example\time\delay.js" />
+    <Content Include="rxjs-example\time\interval.js" />
+    <Content Include="rxjs-example\time\timer.js" />
     <Content Include="rxjs-example\tsconfig.json" />
     <Content Include="rxjs-example\data.json" />
     <Content Include="rxjs-example\data1.json" />
