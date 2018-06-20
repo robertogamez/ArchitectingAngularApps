@@ -69,6 +69,10 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="rxjs-example\bind-callback.ts" />
+    <Content Include="hot-cold-warm\cold-observable.js" />
+    <Content Include="hot-cold-warm\hot-observable.js" />
+    <Content Include="hot-cold-warm\observer.js" />
+    <Content Include="hot-cold-warm\promise.js" />
     <Content Include="rxjs-example\callback.js" />
     <Content Include="packages.config" />
     <Content Include="observer-subject\package.json" />
@@ -103,6 +107,8 @@
     <Content Include="rxjs-example\data1.json" />
     <Content Include="rxjs-example\data2.json" />
     <Content Include="rxjs-example\data3.json" />
+    <Content Include="hot-cold-warm\package.json" />
+    <Content Include="hot-cold-warm\tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
