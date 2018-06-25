@@ -69,10 +69,22 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="rxjs-example\bind-callback.ts" />
+    <Content Include="handle-errors\intro-errors.js" />
+    <Content Include="hot-cold-warm\async-subject.js" />
+    <Content Include="hot-cold-warm\before-subscribe-subject.js" />
+    <Content Include="hot-cold-warm\behavior-subject.html" />
+    <Content Include="hot-cold-warm\behavior-subject.js" />
+    <Content Include="hot-cold-warm\cascading.html" />
+    <Content Include="hot-cold-warm\cascadingIV.js" />
     <Content Include="hot-cold-warm\cold-observable.js" />
     <Content Include="hot-cold-warm\hot-observable.js" />
     <Content Include="hot-cold-warm\observer.js" />
     <Content Include="hot-cold-warm\promise.js" />
+    <Content Include="hot-cold-warm\replay-subject-window-size.js" />
+    <Content Include="hot-cold-warm\replay-subject.js" />
+    <Content Include="hot-cold-warm\subject.js" />
+    <Content Include="hot-cold-warm\warm-observable-share.js" />
+    <Content Include="hot-cold-warm\warm-observer.js" />
     <Content Include="rxjs-example\callback.js" />
     <Content Include="packages.config" />
     <Content Include="observer-subject\package.json" />
@@ -109,6 +121,14 @@
     <Content Include="rxjs-example\data3.json" />
     <Content Include="hot-cold-warm\package.json" />
     <Content Include="hot-cold-warm\tsconfig.json" />
+    <Content Include="hot-cold-warm\countries.json" />
+    <Content Include="hot-cold-warm\data.json" />
+    <Content Include="hot-cold-warm\Liverpool.json" />
+    <Content Include="hot-cold-warm\London.json" />
+    <Content Include="hot-cold-warm\Stockholm.json" />
+    <Content Include="hot-cold-warm\Sweden.json" />
+    <Content Include="hot-cold-warm\UK.json" />
+    <Content Include="handle-errors\package.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

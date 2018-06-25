@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>RxJs - Behavior Subject</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <script src="https://unpkg.com/@reactivex/rxjs@5.5.11/dist/global/Rx.js"></script>
+    <script>
+        let behaviorSubject = new Rx.BehaviorSubject('default value');
+
+        behaviorSubject.subscribe(data => console.log(data));
+
+        // long running AJAX scenario
+        setTimeout(() => {
+            return Rx.Observable.ajax('data.json').map(r => r.response)
+                .subscribe(data => behaviorSubject.next(data));
+        }, 1200);
+    </script>
+</body>
+</html>
