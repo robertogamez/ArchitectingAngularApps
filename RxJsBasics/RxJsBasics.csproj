@@ -69,7 +69,14 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="rxjs-example\bind-callback.ts" />
+    <Content Include="handle-errors\ajax-retry.js" />
+    <Content Include="handle-errors\delay-retry-ajax.js" />
+    <Content Include="handle-errors\error-ignore.js" />
+    <Content Include="handle-errors\error-retry-advanced.js" />
+    <Content Include="handle-errors\error-retry.js" />
     <Content Include="handle-errors\intro-errors.js" />
+    <Content Include="handle-errors\merged-errors.js" />
+    <Content Include="handle-errors\retry-ajax.html" />
     <Content Include="hot-cold-warm\async-subject.js" />
     <Content Include="hot-cold-warm\before-subscribe-subject.js" />
     <Content Include="hot-cold-warm\behavior-subject.html" />
