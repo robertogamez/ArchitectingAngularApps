@@ -92,6 +92,7 @@
     <Content Include="hot-cold-warm\subject.js" />
     <Content Include="hot-cold-warm\warm-observable-share.js" />
     <Content Include="hot-cold-warm\warm-observer.js" />
+    <Content Include="reusable\let-operator.js" />
     <Content Include="rxjs-example\callback.js" />
     <Content Include="packages.config" />
     <Content Include="observer-subject\package.json" />
@@ -147,6 +148,8 @@
     <Content Include="testing\MarbleTesting\src\tsconfig.spec.json" />
     <Content Include="testing\MarbleTesting\tsconfig.json" />
     <Content Include="testing\MarbleTesting\tslint.json" />
+    <Content Include="reusable\package.json" />
+    <Content Include="reusable\pipeable-operators.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
