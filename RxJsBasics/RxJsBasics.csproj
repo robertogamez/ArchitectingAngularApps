@@ -136,16 +136,47 @@
     <Content Include="hot-cold-warm\Sweden.json" />
     <Content Include="hot-cold-warm\UK.json" />
     <Content Include="handle-errors\package.json" />
+    <Content Include="testing\MarbleTesting\.angular-cli.json" />
+    <Content Include="testing\MarbleTesting\.editorconfig" />
+    <Content Include="testing\MarbleTesting\e2e\tsconfig.e2e.json" />
+    <Content Include="testing\MarbleTesting\package-lock.json" />
+    <Content Include="testing\MarbleTesting\package.json" />
+    <Content Include="testing\MarbleTesting\README.md" />
+    <Content Include="testing\MarbleTesting\src\assets\.gitkeep" />
+    <Content Include="testing\MarbleTesting\src\tsconfig.app.json" />
+    <Content Include="testing\MarbleTesting\src\tsconfig.spec.json" />
+    <Content Include="testing\MarbleTesting\tsconfig.json" />
+    <Content Include="testing\MarbleTesting\tslint.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <TypeScriptCompile Include="testing\MarbleTesting\e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\e2e\app.po.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\app\app.component.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\app\app.module.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\app\marble-testing.spec.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\environments\environment.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\main.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\polyfills.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\test.ts" />
+    <TypeScriptCompile Include="testing\MarbleTesting\src\typings.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="rxjs-example\producer.js" />
     <Content Include="rxjs-example\zip-operator.js" />
+    <Content Include="testing\MarbleTesting\.gitignore" />
+    <Content Include="testing\MarbleTesting\karma.conf.js" />
+    <Content Include="testing\MarbleTesting\protractor.conf.js" />
+    <Content Include="testing\MarbleTesting\src\app\app.component.css" />
+    <Content Include="testing\MarbleTesting\src\app\app.component.html" />
+    <Content Include="testing\MarbleTesting\src\favicon.ico" />
+    <Content Include="testing\MarbleTesting\src\index.html" />
+    <Content Include="testing\MarbleTesting\src\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
