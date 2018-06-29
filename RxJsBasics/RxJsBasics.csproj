@@ -69,6 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="rxjs-example\bind-callback.ts" />
+    <Content Include="flux-and-redux\core-concepts\jedilist-reducer.js" />
+    <Content Include="flux-and-redux\core-concepts\merged-reducers.js" />
+    <Content Include="flux-and-redux\core-concepts\selectjedi-reducer.js" />
     <Content Include="flux-and-redux\principles\action.js" />
     <Content Include="flux-and-redux\principles\first-reducer.js" />
     <Content Include="flux-and-redux\principles\reducer.js" />
