@@ -72,6 +72,11 @@
     <Content Include="flux-and-redux\core-concepts\jedilist-reducer.js" />
     <Content Include="flux-and-redux\core-concepts\merged-reducers.js" />
     <Content Include="flux-and-redux\core-concepts\selectjedi-reducer.js" />
+    <Content Include="flux-and-redux\dataflow\actions.js" />
+    <Content Include="flux-and-redux\dataflow\create-view.js" />
+    <Content Include="flux-and-redux\dataflow\reducer.js" />
+    <Content Include="flux-and-redux\dataflow\redux-demo.js" />
+    <Content Include="flux-and-redux\dataflow\redux.js" />
     <Content Include="flux-and-redux\principles\action.js" />
     <Content Include="flux-and-redux\principles\first-reducer.js" />
     <Content Include="flux-and-redux\principles\reducer.js" />
@@ -159,6 +164,7 @@
     <Content Include="testing\MarbleTesting\tslint.json" />
     <Content Include="reusable\package.json" />
     <Content Include="reusable\pipeable-operators.js" />
+    <Content Include="flux-and-redux\dataflow\package.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
