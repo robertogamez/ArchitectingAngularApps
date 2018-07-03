@@ -3,7 +3,7 @@ import { dispatch, select } from './redux';
 
 console.log('create item view has loaded');
 
-class CreateItemView(){
+class CreateItemView {
     saveItem() {
         const elem = document.getElementById('input');
         dispatch(createItem(elem.value));
@@ -12,8 +12,8 @@ class CreateItemView(){
     }
 }
 
-    const button = document.getElementById("saveButton");
-    const createItemWiew = new CreateItemView();
-    button.addEventListener("click", createItemWiew.saveItem);
+const button = document.getElementById("saveButton");
+const createItemWiew = new CreateItemView();
+button.addEventListener("click", createItemWiew.saveItem);
 
-    export default createItemWiew;
+export default createItemWiew;

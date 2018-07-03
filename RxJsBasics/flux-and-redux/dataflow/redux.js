@@ -12,7 +12,7 @@ function store(state = { items: [] }, action){
     };
 }
 
-    export funtion getState() {
+    export function getState() {
         return state;
     }
 
