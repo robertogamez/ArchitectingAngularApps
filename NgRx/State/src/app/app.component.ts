@@ -9,6 +9,8 @@ import { AppState } from './app-state';
         {{counter$ | async}}
         <button (click)="increment()">Increment</button>
         <button (click)="decrement()">Decrement</button>
+        <hr />
+        <app-jedi-list></app-jedi-list>
     `
 })
 export class AppComponent {

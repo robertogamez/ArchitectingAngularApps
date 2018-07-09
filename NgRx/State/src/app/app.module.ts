@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 
 import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './reducer';
+import { jediListReducer } from './jedi-list.reducer';
+import { JediListComponent } from './jedi-list/jedi-list.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JediListComponent
   ],
   imports: [
       BrowserModule,
       FormsModule,
       StoreModule.forRoot({
-          counter: counterReducer
+          counter: counterReducer,
+          jediList: jediListReducer
       })
   ],
   providers: [],
