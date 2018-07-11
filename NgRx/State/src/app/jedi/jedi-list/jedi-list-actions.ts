@@ -1,25 +1,20 @@
 ﻿import {
     ADD_JEDI,
     REMOVE_JEDI,
-    LOAD_JEDI
-} from './jedi.constants';
+    LOAD_JEDIS
+} from './jedi-list.constants';
 
-export const addJedi = (id, name) => ({
+let counter = 0;
+
+export const addJedi = (name) => ({
     type: ADD_JEDI,
-    payload: {
-        id,
-        name
-    }
+    payload: { id: counter++, name }
 });
-
 export const removeJedi = (id) => ({
     type: REMOVE_JEDI,
-    payload: {
-        id
-    }
+    payload: { id }
 });
-
 export const loadJedis = (jedis) => ({
-    type: LOAD_JEDI,
+    type: LOAD_JEDIS,
     payload: jedis
 });

@@ -1,8 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { AppState } from '../app-state';
-import { Jedi } from '../jedi.model';
 import { Observable } from 'rxjs/Observable';
+import { AppState } from '../../app-state';
+import {
+    addJedi,
+    removeJedi,
+    loadJedis
+} from './jedi-list-actions';
+import {
+    Jedi
+} from '../jedi.model';
 
 @Component({
     selector: 'app-jedi-list',
@@ -23,28 +30,16 @@ export class JediListComponent implements OnInit {
 
 
     add() {
-        this.store.dispatch({
-            type: 'ADD_JEDI',
-            payload: {
-                id: this.counter++,
-                name: this.newJedi
-            }
-        });
+        this.store.dispatch(addJedi(this.newJedi));
         this.newJedi = '';
     }
 
     remove(id) {
-        this.store.dispatch({
-            type: 'REMOVE_JEDI',
-            payload: { id }
-        })
+        this.store.dispatch(removeJedi(id));
     }
 
     clear() {
-        this.store.dispatch({
-            type: 'LOAD_JEDIS',
-            payload: []
-        });
+        this.store.dispatch(loadJedis([]));
         this.counter = 0;
     }
 
