@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 
 import { StoreModule } from '@ngrx/store';
 
-import { counterReducer } from './counter/counter/counter.reducer';
-import { jediListReducer } from './jedi/jedi-list/jedi-list.reducer';
+//import { counterReducer } from './counter/counter/counter.reducer';
+//import { jediListReducer } from './jedi/jedi-list/jedi-list.reducer';
 
-import { JediModule } from './jedi/jedi.module';
+//import { JediModule } from './jedi/jedi.module';
 import { CounterModule } from './counter/counter.module';
 
 @NgModule({
@@ -19,11 +19,9 @@ import { CounterModule } from './counter/counter.module';
   imports: [
       BrowserModule,
       FormsModule,
-      JediModule,
+      //JediModule,
       CounterModule,
       StoreModule.forRoot({
-          counter: counterReducer,
-          jediList: jediListReducer
       })
   ],
   providers: [],

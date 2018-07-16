@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -24,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -90,6 +92,28 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="NestedModules\.gitignore" />
+    <Content Include="NestedModules\karma.conf.js" />
+    <Content Include="NestedModules\protractor.conf.js" />
+    <Content Include="NestedModules\src\app\app.component.css" />
+    <Content Include="NestedModules\src\app\app.component.html" />
+    <Content Include="NestedModules\src\app\jedis\list-items\list-items.component.css" />
+    <Content Include="NestedModules\src\app\jedis\list-items\list-items.component.html" />
+    <Content Include="NestedModules\src\favicon.ico" />
+    <Content Include="NestedModules\src\index.html" />
+    <Content Include="NestedModules\src\styles.css" />
+    <Content Include="State\.gitignore" />
+    <Content Include="State\karma.conf.js" />
+    <Content Include="State\protractor.conf.js" />
+    <Content Include="State\src\app\app.component.css" />
+    <Content Include="State\src\app\app.component.html" />
+    <Content Include="State\src\app\counter\counter-list\counter-list.component.css" />
+    <Content Include="State\src\app\counter\counter-list\counter-list.component.html" />
+    <Content Include="State\src\app\counter\counter\counter.component.css" />
+    <Content Include="State\src\app\counter\counter\counter.component.html" />
+    <Content Include="State\src\favicon.ico" />
+    <Content Include="State\src\index.html" />
+    <Content Include="State\src\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +126,28 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="State\.angular-cli.json" />
+    <Content Include="State\.editorconfig" />
+    <Content Include="State\e2e\tsconfig.e2e.json" />
+    <Content Include="State\package-lock.json" />
+    <Content Include="State\package.json" />
+    <Content Include="State\README.md" />
+    <Content Include="State\src\assets\.gitkeep" />
+    <Content Include="State\src\tsconfig.app.json" />
+    <Content Include="State\src\tsconfig.spec.json" />
+    <Content Include="State\tsconfig.json" />
+    <Content Include="State\tslint.json" />
+    <Content Include="NestedModules\.angular-cli.json" />
+    <Content Include="NestedModules\.editorconfig" />
+    <Content Include="NestedModules\e2e\tsconfig.e2e.json" />
+    <Content Include="NestedModules\package-lock.json" />
+    <Content Include="NestedModules\package.json" />
+    <Content Include="NestedModules\README.md" />
+    <Content Include="NestedModules\src\assets\.gitkeep" />
+    <Content Include="NestedModules\src\tsconfig.app.json" />
+    <Content Include="NestedModules\src\tsconfig.spec.json" />
+    <Content Include="NestedModules\tsconfig.json" />
+    <Content Include="NestedModules\tslint.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,11 +160,56 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="NestedModules\e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="NestedModules\e2e\app.po.ts" />
+    <TypeScriptCompile Include="NestedModules\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="NestedModules\src\app\app.component.ts" />
+    <TypeScriptCompile Include="NestedModules\src\app\app.module.ts" />
+    <TypeScriptCompile Include="NestedModules\src\app\jedis\jedis.module.ts" />
+    <TypeScriptCompile Include="NestedModules\src\app\jedis\list-items\list-items.component.spec.ts" />
+    <TypeScriptCompile Include="NestedModules\src\app\jedis\list-items\list-items.component.ts" />
+    <TypeScriptCompile Include="NestedModules\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="NestedModules\src\environments\environment.ts" />
+    <TypeScriptCompile Include="NestedModules\src\main.ts" />
+    <TypeScriptCompile Include="NestedModules\src\polyfills.ts" />
+    <TypeScriptCompile Include="NestedModules\src\test.ts" />
+    <TypeScriptCompile Include="NestedModules\src\typings.d.ts" />
+    <TypeScriptCompile Include="State\e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="State\e2e\app.po.ts" />
+    <TypeScriptCompile Include="State\src\app\action-payload.ts" />
+    <TypeScriptCompile Include="State\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="State\src\app\app.component.ts" />
+    <TypeScriptCompile Include="State\src\app\app.module.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter-list\counter-list.actions.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter-list\counter-list.component.spec.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter-list\counter-list.component.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter-list\counter-list.reducer.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter-list\counter-list.constants.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter-list\counter.model.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter.module.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter\counter.actions.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter\counter.component.spec.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter\counter.component.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter\counter.reducer.ts" />
+    <TypeScriptCompile Include="State\src\app\counter\counter\counter.constants.ts" />
+    <TypeScriptCompile Include="State\src\app\app-state.ts" />
+    <TypeScriptCompile Include="State\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="State\src\environments\environment.ts" />
+    <TypeScriptCompile Include="State\src\main.ts" />
+    <TypeScriptCompile Include="State\src\polyfills.ts" />
+    <TypeScriptCompile Include="State\src\test.ts" />
+    <TypeScriptCompile Include="State\src\typings.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ProjectExtensions>

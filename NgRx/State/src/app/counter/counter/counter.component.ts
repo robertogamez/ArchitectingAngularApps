@@ -16,7 +16,7 @@ export class CounterComponent implements OnInit {
     constructor(
         private store: Store<AppState>
     ) {
-        this.counter$ = store.select('counter');
+        this.counter$ = this.store.select(state => state.counter.data);
     }
 
     incrementCount() {
