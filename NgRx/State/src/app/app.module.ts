@@ -12,6 +12,8 @@ import { StoreModule } from '@ngrx/store';
 //import { JediModule } from './jedi/jedi.module';
 import { CounterModule } from './counter/counter.module';
 
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -22,6 +24,9 @@ import { CounterModule } from './counter/counter.module';
       //JediModule,
       CounterModule,
       StoreModule.forRoot({
+      }),
+      StoreDevtoolsModule.instrument({
+          maxAge: 25
       })
   ],
   providers: [],
